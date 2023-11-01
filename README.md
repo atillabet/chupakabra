@@ -11,3 +11,11 @@
    docker run hello-world
 6. Заранить команду:
    docker build -t my-spark-img -f Dockerfile.uu .
+
+# HOW TO RUN IT
+1. docker run my-spark-img
+
+
+# What to do next
+i don't know<br>
+![image](https://github.com/atillabet/imbd-spark-project/assets/70264866/ad0c7b64-b0b9-4540-ab0d-2e265b053293)
