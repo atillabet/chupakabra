@@ -1,0 +1,35 @@
+1. LOCATION:
+ - start latitude, double
+ - end latitude, double
+ - start longitude, double
+ - end longitude, doible
+
+2. DISTANCE, double
+
+3. TIME:
+ - start time/date, data_time
+ - end time/date, data_time
+ - trip time, int
+
+4. PASSENGERS, int
+
+5. store_and_fwd_flag(wtf), var_char
+
+6. SCORE, int
+
+7. LICENSE - ліцензія, var_char
+
+8. MEDALLION - якась дичь, var_char
+
+9. vendor_id - tracking system type, var_char
+
+
+ПРИТЕНЗІЇ:
+1. рейтинг майже всюди 1
+2. кліькість пасажирів майже всюди 1
+3. ліцензії і медаліон не повторюються
+4. час поїздки дуже малий
+5. поїздки всі в один день (1/12/2013)
+6. дистанція поїзки дуже мала
+7. антарктида + гвінейська затока(???????????????????????????????)
+8. переїхали з точки А в точку А, і дистанція не нуль
