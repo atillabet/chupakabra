@@ -1,4 +1,5 @@
 from pyspark.sql import SparkSession
+import transformation_stage
 
 # Create a SparkSession
 spark = SparkSession.builder \
@@ -15,3 +16,6 @@ df.show()
 
 # Stop the SparkSession (important to release resources)
 spark.stop()
+
+if __name__ == '__main__':
+    transformation_stage.run()
