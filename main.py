@@ -1,5 +1,6 @@
 from pyspark.sql import SparkSession
 import transformation_stage
+import trip_info
 
 # Create a SparkSession
 spark = SparkSession.builder \
@@ -19,3 +20,4 @@ spark.stop()
 
 if __name__ == '__main__':
     transformation_stage.run()
+    trip_info.run()
